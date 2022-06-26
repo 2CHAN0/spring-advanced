@@ -31,7 +31,7 @@ public class OrderControllerConcreteProxy extends OrderControllerV2 {
     }
 
     @Override
-    public String loLog() {
-        return target.loLog();
+    public String nolog() {
+        return target.nolog();
     }
 }

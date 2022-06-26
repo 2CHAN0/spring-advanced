@@ -14,7 +14,7 @@ public class OrderControllerV1Impl implements OrderControllerV1{
     }
     
     @Override
-    public String loLog() {
+    public String nolog() {
         return null;
     }
 }
